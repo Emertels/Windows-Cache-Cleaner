@@ -1,48 +1,37 @@
-# 🌐 Limpeza de Cache do Windows e Navegadores 🇧🇷
+# 🧹 Limpeza de Cache do Windows e Navegadores 🇧🇷
 
-Limpeza por clique de arquivos temporários selecionados do Windows e caches de navegadores.
+<div align="center">
 
-[![Documentação](https://img.shields.io/badge/DOCUMENTA%C3%87%C3%83O-PORTUGU%C3%8AS%20(BRASIL)-green?style=for-the-badge)](README.md) [![Documentation](https://img.shields.io/badge/DOCUMENTATION-ENGLISH-0070F3?style=for-the-badge)](README-EN.md)
+**🌐 Idiomas / Languages:**  
+[![Documentação PT-BR](https://img.shields.io/badge/Documenta%C3%A7%C3%A3o-Portugu%C3%AAs%20(Brasil)-green?style=for-the-badge)](README.md)
+[![Documentation EN](https://img.shields.io/badge/Documentation-English-0070F3?style=for-the-badge)](README-EN.md)
 
-![Versão](https://img.shields.io/badge/Vers%C3%A3o-v1.0.0-blue?style=flat-square) ![Licença](https://img.shields.io/badge/Licen%C3%A7a-MIT-green?style=flat-square) ![Plataforma](https://img.shields.io/badge/Plataforma-Windows-0078D4?style=flat-square) ![Idiomas](https://img.shields.io/badge/Idiomas-10%20auto--detectados-2ea44f?style=flat-square)
+![Versão](https://img.shields.io/badge/Vers%C3%A3o-v1.0.0-blue?style=for-the-badge)
+![Licença](https://img.shields.io/badge/Licen%C3%A7a-MIT-green?style=for-the-badge)
+![Plataforma](https://img.shields.io/badge/Plataforma-Windows%2010%20%7C%2011-0078D4?style=for-the-badge)
+![Segurança](https://img.shields.io/badge/Dados%20Pessoais-Preservados-green?style=for-the-badge)
 
-[Changelog PT-BR](CHANGELOG-PT-BR.md) · [English changelog](CHANGELOG-EN.md) · [Licença MIT](LICENSE)
+</div>
 
 ---
-## Arquivos
 
-Windows-Cache-Cleaner.bat
+Utilitário inteligente para limpeza profunda e liberação de gigabytes em caches do Windows e navegadores web, com proteção total de senhas e dados pessoais.
 
-## Como usar
+## 🚀 Principais Recursos
+- **Limpeza de Navegadores:** Remove caches pesados de Chrome, Edge, Firefox, Brave e Opera sem afetar logins ou histórico essencial.
+- **Caches Temporários do Windows:** Limpeza cirúrgica de `%TEMP%`, `C:\Windows\Temp`, relatórios de erro e logs obsoletos.
+- **Caches Gráficos & Miniaturas:** Limpa Shader Cache corrompidos de GPU e cache de miniaturas (`Thumbcache`).
+- **Execução Segura:** Relatório imediato de espaço em disco recuperado na tela.
 
-1. Baixe ou clone o repositório completo.
-2. Execute `Windows-Cache-Cleaner.bat`. Revise as mensagens; os navegadores devem estar fechados para limpar seus arquivos temporários.
+## 📦 Como Usar
+1. Baixe o pacote na seção [Releases](https://github.com/Emertels/Windows-Cache-Cleaner/releases/latest).
+2. Feche seus navegadores e execute `Windows-Cache-Cleaner.bat` como Administrador.
+3. Aguarde o processamento das etapas de limpeza e acompanhe os resultados no console.
 
-## Requisitos
+> [!TIP]
+> Para uma limpeza mais profunda, feche todos os navegadores e aplicativos antes de rodar o utilitário para que arquivos bloqueados possam ser removidos.
 
-Windows 10 ou Windows 11 com PowerShell 5.1 integrado. O único arquivo distribuído é `Windows-Cache-Cleaner.bat`; ele mantém a tela no mesmo console preto do CMD.
-
-## O que a limpeza percorre
-
-O Batch mostra o progresso em oito etapas: caches/temporários selecionados do Windows; TEMP do usuário; caches temporários de navegadores compatíveis; caches gráficos e shaders; miniaturas; logs selecionados; cache DNS; resumo final. Feche os navegadores antes: arquivos em uso podem ser ignorados. O script mira arquivos temporários nas pastas definidas; não foi feito para apagar histórico, favoritos, senhas ou sessões. A Lixeira é esvaziada em uma etapa própria: confira-a antes de executar.
-
-### Idiomas disponíveis
-
-Detectados pela configuração do Windows; PT-BR é o fallback.
-
-| Idioma | Código | Uso |
-|---|---|
-| Português (Brasil) | pt-BR | Interface PT-BR; também é o idioma alternativo. |
-| Inglês | en | Interface em inglês. |
-| Espanhol | es | Interface em espanhol. |
-| Francês | fr | Interface em francês. |
-| Alemão | de | Interface em alemão. |
-| Italiano | it | Interface em italiano. |
-| Japonês | ja | Interface em japonês. |
-| Coreano | ko | Interface em coreano. |
-| Chinês simplificado | zh-CN | Interface em chinês simplificado. |
-| Russo | ru | Interface em russo. |
-
+---
 ## 👨‍💻 Sobre o Autor
 
 Desenvolvido e mantido por **Emerson Teles** (conhecido na comunidade como **Emertels**).
