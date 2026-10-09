@@ -1,27 +1,47 @@
-# Windows and Browser Cache Cleaner
+# 🌐 Limpeza de Cache do Windows e Navegadores 🇧🇷
 
-![Latest Release](https://img.shields.io/github/v/release/Emertels/Windows-Cache-Cleaner) ![MIT License](https://img.shields.io/github/license/Emertels/Windows-Cache-Cleaner)
+Limpeza por clique de arquivos temporários selecionados do Windows e caches de navegadores.
 
-**Version:** 1.0.0  |  **License:** MIT
+[![Documentação](https://img.shields.io/badge/DOCUMENTA%C3%87%C3%83O-PORTUGU%C3%8AS%20(BRASIL)-green?style=for-the-badge)](README.md) [![Documentation](https://img.shields.io/badge/DOCUMENTATION-ENGLISH-0070F3?style=for-the-badge)](README-EN.md)
 
-One-click cleanup for selected Windows and browser caches while preserving personal browser data. The program is distributed as one `.bat` file and keeps the original CMD-style console layout.
+![Versão](https://img.shields.io/badge/Vers%C3%A3o-v1.0.0-blue?style=flat-square) ![Licença](https://img.shields.io/badge/Licen%C3%A7a-MIT-green?style=flat-square) ![Plataforma](https://img.shields.io/badge/Plataforma-Windows-0078D4?style=flat-square) ![Idiomas](https://img.shields.io/badge/Idiomas-10%20auto--detectados-2ea44f?style=flat-square)
 
-- [Português (Brasil)](README-PT-BR.md)
-- [English](README-EN.md)
-- [Changelog PT-BR](CHANGELOG-PT-BR.md) · [Changelog EN](CHANGELOG-EN.md)
-- [Agent instructions / Instruções para agentes](AGENTS.md)
-- [MIT License](LICENSE)
-- [v1.0.0 release and portable ZIP](https://github.com/Emertels/Windows-Cache-Cleaner/releases/tag/v1.0.0)
+[Changelog PT-BR](CHANGELOG-PT-BR.md) · [English changelog](CHANGELOG-EN.md) · [Licença MIT](LICENSE)
 
 ---
+## Arquivos
 
-## Português (Brasil)
+Windows-Cache-Cleaner.bat
 
-Limpeza em um clique de caches selecionados do Windows e navegadores, preservando dados pessoais. O programa é distribuído em um único arquivo `.bat` e mantém o layout de console CMD do original.
+## Como usar
 
-## English
+1. Baixe ou clone o repositório completo.
+2. Execute `Windows-Cache-Cleaner.bat`. Revise as mensagens; os navegadores devem estar fechados para limpar seus arquivos temporários.
 
-One-click cleanup for selected Windows and browser caches while preserving personal browser data. The program is distributed as one `.bat` file and keeps the original CMD-style console layout.
+## Requisitos
+
+Windows 10 ou Windows 11 com PowerShell 5.1 integrado. O único arquivo distribuído é `Windows-Cache-Cleaner.bat`; ele mantém a tela no mesmo console preto do CMD.
+
+## O que a limpeza percorre
+
+O Batch mostra o progresso em oito etapas: caches/temporários selecionados do Windows; TEMP do usuário; caches temporários de navegadores compatíveis; caches gráficos e shaders; miniaturas; logs selecionados; cache DNS; resumo final. Feche os navegadores antes: arquivos em uso podem ser ignorados. O script mira arquivos temporários nas pastas definidas; não foi feito para apagar histórico, favoritos, senhas ou sessões. A Lixeira é esvaziada em uma etapa própria: confira-a antes de executar.
+
+### Idiomas disponíveis
+
+Detectados pela configuração do Windows; PT-BR é o fallback.
+
+| Idioma | Código | Uso |
+|---|---|
+| Português (Brasil) | pt-BR | Interface PT-BR; também é o idioma alternativo. |
+| Inglês | en | Interface em inglês. |
+| Espanhol | es | Interface em espanhol. |
+| Francês | fr | Interface em francês. |
+| Alemão | de | Interface em alemão. |
+| Italiano | it | Interface em italiano. |
+| Japonês | ja | Interface em japonês. |
+| Coreano | ko | Interface em coreano. |
+| Chinês simplificado | zh-CN | Interface em chinês simplificado. |
+| Russo | ru | Interface em russo. |
 
 ## 👨‍💻 Sobre o Autor
 

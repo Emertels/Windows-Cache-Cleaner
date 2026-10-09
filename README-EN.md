@@ -1,12 +1,14 @@
-# Windows and Browser Cache Cleaner
-
-**Version:** 1.0.0  
-**Interface languages:** Brazilian Portuguese, English, Spanish, French, German, Italian, Japanese, Korean, Simplified Chinese, and Russian. The program detects Windows UI culture and uses Brazilian Portuguese for unsupported locales.
-
-## What it does
+# 🌐 Windows and Browser Cache Cleaner
 
 One-click cleanup launcher for selected Windows temporary files and browser caches.
 
+[![Português (Brasil)](https://img.shields.io/badge/DOCUMENTA%C3%87%C3%83O-PORTUGU%C3%8AS%20(BRASIL)-green?style=for-the-badge)](README.md) [![Documentation](https://img.shields.io/badge/DOCUMENTATION-ENGLISH-0070F3?style=for-the-badge)](README-EN.md)
+
+![Version](https://img.shields.io/badge/Version-v1.0.0-blue?style=flat-square) ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square) ![Platform](https://img.shields.io/badge/Platform-Windows-0078D4?style=flat-square) ![Languages](https://img.shields.io/badge/Languages-10%20auto--detected-2ea44f?style=flat-square)
+
+[Portuguese changelog](CHANGELOG-PT-BR.md) · [English changelog](CHANGELOG-EN.md) · [MIT License](LICENSE)
+
+---
 ## Files
 
 Windows-Cache-Cleaner.bat
@@ -20,34 +22,26 @@ Windows-Cache-Cleaner.bat
 
 Windows 10 or Windows 11 with built-in Windows PowerShell 5.1. The only distributed program file is `Windows-Cache-Cleaner.bat`, and its interface stays in the same black CMD console.
 
-## Safety and limitations
+## Cleanup stages
 
-The project must not remove personal data, credentials, or content outside paths defined by the tool. Command and feature availability depends on Windows edition and version. Review CHANGELOG.md before updating.
+The Batch file reports progress through eight stages: selected Windows caches/temp files; user TEMP; supported browser temp caches; graphics/shader caches; thumbnails; selected logs; DNS cache; final summary. Close browsers first; files in use may be skipped. The script targets temporary files in its defined locations; it is not intended to remove browsing history, bookmarks, passwords, or sessions. The Recycle Bin is emptied separately, so check it before running.
 
-## Development
+### Available languages
 
-See AGENTS-PT-BR.md and AGENTS-EN.md. The default interface language follows Windows UI culture; Brazilian Portuguese is the fallback.
+Detected from Windows settings; Brazilian Portuguese is the fallback.
 
-## Languages, purpose, and tips
-
-The interface supports Brazilian Portuguese, English, Spanish, French, German, Italian, Japanese, Korean, Simplified Chinese, and Russian. It detects Windows UI culture and uses Brazilian Portuguese as the fallback.
-
-Close browsers before cleaning. History, bookmarks, passwords, cookies, and sessions are preserved; files in use may be skipped.
-
-### Idiomas disponíveis / Available languages
-
-| Language | Locale | Used for |
-|---|---|---|
-| Brazilian Portuguese | pt-BR | Brazilian Windows; fallback for unsupported locales |
-| English | en | English Windows |
-| Spanish | es | Spanish Windows |
-| French | fr | French Windows |
-| German | de | German Windows |
-| Italian | it | Italian Windows |
-| Japanese | ja | Japanese Windows |
-| Korean | ko | Korean Windows |
-| Simplified Chinese | zh-CN | Simplified Chinese Windows |
-| Russian | ru | Russian Windows |
+| Language | Locale | Typical system |
+|---|---|
+| Brazilian Portuguese | pt-BR | Brazilian Windows; also the fallback language. |
+| English | en | English Windows. |
+| Spanish | es | Spanish Windows. |
+| French | fr | French Windows. |
+| German | de | German Windows. |
+| Italian | it | Italian Windows. |
+| Japanese | ja | Japanese Windows. |
+| Korean | ko | Korean Windows. |
+| Simplified Chinese | zh-CN | Simplified Chinese Windows. |
+| Russian | ru | Russian Windows. |
 
 ## 👨‍💻 About the Author
 
