@@ -16,3 +16,4 @@
 
 - Usage, dependency, and required-file documentation was reviewed to match current project behavior.
 
+- Aligns the author, projects, and official communities section with the Antigravity reference repository.
