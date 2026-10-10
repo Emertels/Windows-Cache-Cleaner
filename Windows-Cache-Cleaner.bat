@@ -1,7 +1,7 @@
 @echo off
 setlocal DisableDelayedExpansion
 rem Single-file CMD launcher; the embedded PowerShell runs in this same console.
-powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "$file='%~f0';$env:EMERTELS_CACHE_BATCH=$file;$lines=[IO.File]::ReadAllLines($file);$marker=[Array]::IndexOf($lines,'#PS_PAYLOAD');if($marker -lt 0){exit 3};$payload=$lines[($marker+1)..($lines.Length-1)] -join [Environment]::NewLine;& ([scriptblock]::Create($payload))"
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "$file='%~f0';$env:EMERTELS_CACHE_BATCH=$file;$lines=[IO.File]::ReadAllLines($file);$marker=[Array]::IndexOf($lines,'#PS_PAYLOAD');if($marker -lt 0){exit 3};$payload=$lines[($marker+1)..($lines.Length-1)] -join [Environment]::NewLine;. ([scriptblock]::Create($payload))"
 set "RESULT=%ERRORLEVEL%"
 exit /b %RESULT%
 #PS_PAYLOAD

@@ -2,6 +2,8 @@
 
 ## 1.0.0 — 2026-10-09
 
+- Corrige o escopo dos contadores de limpeza para eliminar erros repetidos durante a varredura.
+
 - Reorganiza a documentação: README principal em PT-BR, versão independente em inglês e instruções específicas das opções/etapas deste projeto.
 
 - Corrige as instruções de execução para apontar diretamente para o arquivo correto do projeto.

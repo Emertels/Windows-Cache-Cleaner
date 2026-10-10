@@ -16,18 +16,18 @@
 
 ---
 
-Intelligent cleanup utility freeing gigabytes of disk space across Windows temporary folders and modern browsers while preserving logins and personal credentials.
+Cleans defined cache and temporary locations in Windows, browsers, and graphics components. It does not remove browser profile data such as history, bookmarks, passwords, cookies, or sessions, and does not empty the Recycle Bin.
 
 ## 🚀 Key Features
 - **Browser Cache Purge:** Cleans Chrome, Edge, Firefox, Brave, and Opera caches without touching saved passwords or bookmarks.
 - **Windows System Temps:** Safely removes `%TEMP%`, `C:\Windows\Temp`, crash dumps, and obsolete logs.
 - **GPU & Thumbnail Caches:** Cleans corrupted shader caches and Windows thumbnail databases.
-- **Zero Configuration:** Single-click execution via native Batch & PowerShell integration.
+- **Summary:** Reports folders checked, items removed, and items skipped or failed.
 
 ## 📦 Usage
 1. Download from [Releases](https://github.com/Emertels/Windows-Cache-Cleaner/releases/latest).
 2. Close your browsers and run `Windows-Cache-Cleaner.bat` as Administrator.
-3. Review the reclaimed disk space summary in the console.
+3. Review the removed, skipped, and failed item counts in the console summary.
 
 ---
 ## 🌐 Multilingual Support (10 Native Languages)

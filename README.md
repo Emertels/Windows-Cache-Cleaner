@@ -16,13 +16,13 @@
 
 ---
 
-Utilitário inteligente para limpeza profunda e liberação de gigabytes em caches do Windows e navegadores web, com proteção total de senhas e dados pessoais.
+Limpa caches e arquivos temporários definidos do Windows, navegadores e componentes gráficos. Não remove dados do perfil do navegador, como histórico, favoritos, senhas, cookies e sessões; não esvazia a Lixeira.
 
 ## 🚀 Principais Recursos
 - **Limpeza de Navegadores:** Remove caches pesados de Chrome, Edge, Firefox, Brave e Opera sem afetar logins ou histórico essencial.
 - **Caches Temporários do Windows:** Limpeza cirúrgica de `%TEMP%`, `C:\Windows\Temp`, relatórios de erro e logs obsoletos.
 - **Caches Gráficos & Miniaturas:** Limpa Shader Cache corrompidos de GPU e cache de miniaturas (`Thumbcache`).
-- **Execução Segura:** Relatório imediato de espaço em disco recuperado na tela.
+- **Resumo:** Mostra pastas verificadas, itens removidos e itens ignorados ou com falha.
 
 ## 📦 Como Usar
 1. Baixe o pacote na seção [Releases](https://github.com/Emertels/Windows-Cache-Cleaner/releases/latest).

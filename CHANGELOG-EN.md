@@ -2,6 +2,8 @@
 
 ## 1.0.0 — 2026-10-09
 
+- Fixes cleanup counter scope to prevent repeated errors during folder processing.
+
 - Organizes the docs into a PT-BR primary README and a separate English version, with guidance tailored to this project’s options and workflow.
 
 - Updates the run instructions to point directly to the correct project entry point.
