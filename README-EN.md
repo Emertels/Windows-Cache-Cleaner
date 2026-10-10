@@ -9,6 +9,7 @@
 ![Version](https://img.shields.io/badge/Version-v1.0.0-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078D4?style=for-the-badge)
+![Languages](https://img.shields.io/badge/Languages-10%20Native-2ea44f?style=for-the-badge)
 ![Safety](https://img.shields.io/badge/Personal%20Data-Preserved-green?style=for-the-badge)
 
 </div>
@@ -27,6 +28,42 @@ Intelligent cleanup utility freeing gigabytes of disk space across Windows tempo
 1. Download from [Releases](https://github.com/Emertels/Windows-Cache-Cleaner/releases/latest).
 2. Close your browsers and run `Windows-Cache-Cleaner.bat` as Administrator.
 3. Review the reclaimed disk space summary in the console.
+
+---
+## 🌐 Multilingual Support (10 Native Languages)
+
+This tool features full built-in support for **10 native languages**, automatically detecting the UI culture configured in your Windows operating system:
+
+| Language | Code | Detection |
+| :--- | :--- | :--- |
+| 🇧🇷 **Portuguese (Brazil)** | `pt-BR` | Default / Automatic |
+| 🇺🇸 **English** | `en` | Automatic |
+| 🇪🇸 **Spanish** | `es` | Automatic |
+| 🇫🇷 **French** | `fr` | Automatic |
+| 🇩🇪 **German** | `de` | Automatic |
+| 🇮🇹 **Italian** | `it` | Automatic |
+| 🇯🇵 **Japanese** | `ja` | Automatic |
+| 🇰🇷 **Korean** | `ko` | Automatic |
+| 🇨🇳 **Simplified Chinese** | `zh-CN` | Automatic |
+| 🇷🇺 **Russian** | `ru` | Automatic |
+
+### 💡 Forcing or Changing the Language
+If you want to run the tool in a language different from your Windows system UI, simply set the `EMERTELS_LANGUAGE` environment variable:
+
+**In Command Prompt (CMD / Batch):**
+```cmd
+set EMERTELS_LANGUAGE=en
+call Windows-Cache-Cleaner.bat
+```
+
+**In PowerShell:**
+```powershell
+$env:EMERTELS_LANGUAGE = "en"
+.\Windows-Cache-Cleaner.bat
+```
+
+> [!TIP]
+> If your system language is not among the 10 supported cultures, the application safely falls back to **Portuguese (Brazil)** or **English**.
 
 ---
 ## 👨‍💻 About the Author
